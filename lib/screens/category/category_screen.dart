@@ -22,7 +22,7 @@ class CategoryScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFFD0FC04),
-        title: Text(categoryName),
+        title: Text(categoryName, style: TextStyle(color: Colors.black),),
       ),
       body: GridView.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
