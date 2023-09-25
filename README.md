@@ -38,7 +38,42 @@ O LS é a sua solução completa para entrar em forma e levar um estilo de vida 
 
 - (https://www.instagram.com/leandro_santana/) 
 
+## Imagens do Aplicativo
+
+Aqui estão algumas capturas de tela do aplicativo LS:
 
 <div align="center">
-  <img src="imagem_do_seu_app.png" alt="Imagem do Aplicativo LS" width="300"/>
+  <div>
+    <img src="https://github.com/LeandroSSantana/ls_app/blob/master/screenshots/1%20-%20SplashScreen.png" alt="Tela de Splash" width="300"/>
+  </div>
+  <div>
+    <img src="https://github.com/LeandroSSantana/ls_app/blob/master/screenshots/2%20-%20LoginScreen.png" alt="Tela de Login" width="300"/>
+  </div>
+</div>
+
+<div align="center">
+  <div>
+    <img src="https://github.com/LeandroSSantana/ls_app/blob/master/screenshots/3%20-%20SignInScreen.png" alt="Tela de Inscrição" width="300"/>
+  </div>
+  <div>
+    <img src="https://github.com/LeandroSSantana/ls_app/blob/master/screenshots/4%20-%20ForgotPassWord.png" alt="Tela de Esqueci a Senha" width="300"/>
+  </div>
+</div>
+
+<div align="center">
+  <div>
+    <img src="https://github.com/LeandroSSantana/ls_app/blob/master/screenshots/5%20-%20EmailSended.png" alt="Tela de Email Enviado" width="300"/>
+  </div>
+  <div>
+    <img src="https://github.com/LeandroSSantana/ls_app/blob/master/screenshots/6%20-%20WelcomeScreen.png" alt="Tela de Boas-Vindas" width="300"/>
+  </div>
+</div>
+
+<div align="center">
+  <div>
+    <img src="https://github.com/LeandroSSantana/ls_app/blob/master/screenshots/7%20-%20FeaturedTrainersScreen.png" alt="Tela de Treinadores em Destaque" width="300"/>
+  </div>
+  <div>
+    <img src="https://github.com/LeandroSSantana/ls_app/blob/master/screenshots/8%20-%20WorkoutScreen.png" alt="Tela de Treino" width="300"/>
+  </div>
 </div>
