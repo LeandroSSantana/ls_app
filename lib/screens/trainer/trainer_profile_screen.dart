@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:ls_app/model/trainers/trainer.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class TrainerProfileScreen extends StatelessWidget {
   final Trainer trainer;
@@ -71,7 +72,7 @@ class TrainerProfileScreen extends StatelessWidget {
                       color: Color(0xFFE1306C),
                     ),
                     onPressed: () {
-                      // Adicione a ação para o Instagram aqui
+                      _launchInstagram(trainer.instagramUsername);
                     },
                   ),
                   IconButton(
@@ -90,5 +91,23 @@ class TrainerProfileScreen extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+
+void _launchInstagram(String username) async {
+  final instagramUrl = "https://www.instagram.com/$username/";
+  if (await canLaunch(instagramUrl)) {
+    await launch(instagramUrl);
+  } else {
+    throw 'Não foi possível abrir o Instagram.';
+  }
+}
+
+void _launchWhatsApp(String phoneNumber) async {
+  final whatsappUrl = "https://wa.me/$phoneNumber";
+  if (await canLaunch(whatsappUrl)) {
+    await launch(whatsappUrl);
+  } else {
+    throw 'Não foi possível abrir o WhatsApp.';
   }
 }

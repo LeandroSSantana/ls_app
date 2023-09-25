@@ -17,13 +17,13 @@ class TrainingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     // Encontre o treinador correspondente usando o ID do treinador do treinamento atual
     final trainer = trainers.firstWhere(
-          (t) => t.id == training.trainerId,
+      (t) => t.id == training.trainerId,
       orElse: () => Trainer(
-        id: 'default',
-        trainerName: 'Treinador Não Encontrado',
-        trainerImage: 'imagem_padrao.png',
-        trainerInfo: '',
-      ),
+          id: 'default',
+          trainerName: 'Treinador Não Encontrado',
+          trainerImage: 'imagem_padrao.png',
+          trainerInfo: '',
+          instagramUsername: 'leandro_santana'),
     );
 
     return Scaffold(
